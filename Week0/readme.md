@@ -1,4 +1,4 @@
-# Task 1: Welcome Call
+# 🚀Task 1: Welcome Call
 
 ## 📔 Here I am going to document the Welcome call of the RISC-V SOC Tapeout Program!
 
@@ -87,7 +87,7 @@ Mr. Mohamed Kassem, Co-founder and CTO of ChipFoundry
 
 
 
-# Task 2: Tools Installation
+# 🚀Task 2: Tools Installation
 
 Here I am going to document a list of PC requirements, tools required, and how to install the tools
 
@@ -113,7 +113,7 @@ Now start the Virtual Machine and install the Ubuntu OS check this requirement
 
 <hr style="height:3px; background-color:black; border:none;">
 
- ## Yosys 
+ ## ⚙️Yosys 
  
 ```
 $ sudo apt-get update
@@ -135,7 +135,7 @@ $ sudo make install
 
 <hr style="height:3px; background-color:black; border:none;">
 
-## iverilog
+## ⚙️iverilog
 
 ```
 $ sudo apt-get update
@@ -146,7 +146,7 @@ $ sudo apt-get install iverilog
 
 <hr style="height:3px; background-color:black; border:none;">
 
-## gtkwave
+## ⚙️gtkwave
 
 ```
 $ sudo apt-get update
