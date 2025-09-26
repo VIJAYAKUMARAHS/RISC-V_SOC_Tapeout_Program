@@ -12,7 +12,7 @@ From Concept to Silicon: Shape India's Semiconductor Program.
 
 
 
-### 📖This repository documents my week-by-week progress with assignments.
+### 📅This repository documents my week-by-week progress with assignments.
 
 <hr style="height:3px; background-color:black; border:none;">
 
