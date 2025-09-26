@@ -86,5 +86,18 @@ Mr. Mohamed Kassem, Co-founder and CTO of ChipFoundry
 
 # Task 2: Tools Installation
 
+Here I am going to document a list of PC requirements, tools required, and how to install the tools
+
+### Steps to install Tools
+
+First, we have to install Oracle Virtual Machine using the below link
+
+https://www.oracle.com/in/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+
+
+
+
+
+
 
 
