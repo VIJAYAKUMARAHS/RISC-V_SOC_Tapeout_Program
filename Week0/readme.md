@@ -90,11 +90,28 @@ Here I am going to document a list of PC requirements, tools required, and how t
 
 ### Steps to install Tools
 
-First, we have to install Oracle Virtual Machine using the below link
+First, we have to install Oracle Virtual Machine using the link below
 
 https://www.oracle.com/in/virtualization/technologies/vm/downloads/virtualbox-downloads.html
 
+After installing VMware in your Windows system, download the Ubuntu 20.04 or higher version using the link below.
 
+https://ubuntu.com/download
+
+Now start the Virtual Machine and install the Ubuntu OS check this requirement
+- 6 RAM
+- 50GB Virtual Disk
+- Ubuntu 20.04 or Higher
+- 4vCPU
+
+ After the installation of Ubuntu.
+
+ ### Installation of Open Source EDA Tools and Tools Check
+
+ ## Yosys
+
+ 
+ 
 
 
 
