@@ -106,14 +106,51 @@ Now start the Virtual Machine and install the Ubuntu OS check this requirement
 
  After the installation of Ubuntu.
 
- ### Installation of Open Source EDA Tools and Tools Check
+ ### Installation of Open Source EDA Tools and Tools Check using commands below
 
- ## Yosys
+<hr style="height:3px; background-color:black; border:none;">
 
+ ## Yosys 
  
- 
+```
+$ sudo apt-get update
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+$ sudo apt install make               # If make is not installed
+$ sudo apt-get install build-essential clang bison flex \
+    libreadline-dev gawk tcl-dev libffi-dev git \
+    graphviz xdot pkg-config python3 libboost-system-dev \
+    libboost-python-dev libboost-filesystem-dev zlib1g-dev
+$ make config-gcc
+# Yosys build depends on a Git submodule called abc, which hasn't been initialized yet. You need to run the following command before running make
+$ git submodule update --init --recursive
+$ make 
+$ sudo make install
+```
 
+<img width="825" height="788" alt="Screenshot 2025-09-21 171958" src="https://github.com/user-attachments/assets/26b4ec4c-e893-4845-b46b-33e166481dd1" />
 
+<hr style="height:3px; background-color:black; border:none;">
+
+## iverilog
+
+```
+$ sudo apt-get update
+$ sudo apt-get install iverilog
+```
+
+<img width="826" height="744" alt="Screenshot 2025-09-21 172915" src="https://github.com/user-attachments/assets/f6f86a64-026d-44d3-aa87-b83e06ea0368" />
+
+<hr style="height:3px; background-color:black; border:none;">
+
+## gtkwave
+
+```
+$ sudo apt-get update
+$ sudo apt install gtkwave
+```
+
+<img width="835" height="183" alt="Screenshot 2025-09-21 173537" src="https://github.com/user-attachments/assets/824ef2d1-8fd0-4dd0-b366-a1b34ebea02d" />
 
 
 
