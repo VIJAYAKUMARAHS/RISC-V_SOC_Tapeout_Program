@@ -18,9 +18,9 @@ From Concept to Silicon: Shape India's Semiconductor Program.
 
 <div align="center">
   
-| **Weeks**     | Topics covered                                                              | **Status**| 
-|---------------|-----------------------------------------------------------------------------|-----------|
-| **Week0**     |            |           |
+| **Weeks**     | Topics covered                                                              | **Status**        | 
+|---------------|-----------------------------------------------------------------------------|-------------------|
+| **Week0**     | Welcome Call and Tools Installation                                         |     ✅ Done      |
 | **Week1**     |                    |           |
 | **Week2**     |                                |           |
 | **Week3**     |                         |           |
