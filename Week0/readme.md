@@ -52,3 +52,7 @@ Mr. Mohamed Kassem, Co-founder and CTO of ChipFoundry
 ### Meet our Team members
 
 <img width="689" height="368" alt="image" src="https://github.com/user-attachments/assets/b727c9ff-42bc-4c14-a96c-69e4ce82159f" />
+
+### I am very much thankful to Mr. Kunal Ghosh, VLSI System Design(VSD)
+
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/d6ad12ab-693f-48e2-9860-e55bf9fdcb72" />
