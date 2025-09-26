@@ -38,6 +38,8 @@ From Concept to Silicon: Shape India's Semiconductor Program.
 
 ### 🫡Acknowledgment
 
-<p align="center">
-I am thankful to Kunal Ghosh and Team VLSI System Design (VSD) for the opportunity to participate in this ongoing RISC-V SoC Tapeout Program.
-</p>
+<div align="center">
+  
+I am thankful to [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836) and Team [VLSI System Design (VSD)](https://www.vlsisystemdesign.com) for the opportunity to participate in this ongoing RISC-V SoC Tapeout Program.
+</div>
+
