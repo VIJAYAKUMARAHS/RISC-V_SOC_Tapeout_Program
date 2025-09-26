@@ -20,7 +20,7 @@ From Concept to Silicon: Shape India's Semiconductor Program.
   
 | **Weeks**     | Topics covered                                                              | **Status**        | 
 |---------------|-----------------------------------------------------------------------------|-------------------|
-| **Week0**     | Welcome Call and Tools Installation                                         |     ✅ Done      |
+| **Week0**     | [Welcome Call and Tools Installation](https://github.com/VIJAYAKUMARAHS/RISC-V_SOC_Tapeout_Program/tree/main/Week0)  |     ✅ Done      |
 | **Week1**     |                    |           |
 | **Week2**     |                                |           |
 | **Week3**     |                         |           |
