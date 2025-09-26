@@ -82,7 +82,10 @@ Mr. Mohamed Kassem, Co-founder and CTO of ChipFoundry
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/d6ad12ab-693f-48e2-9860-e55bf9fdcb72" />
 </p>
 
+
 <hr style="height:3px; background-color:black; border:none;">
+
+
 
 # Task 2: Tools Installation
 
