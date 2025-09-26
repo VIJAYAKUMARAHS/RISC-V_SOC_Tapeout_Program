@@ -16,7 +16,8 @@ From Concept to Silicon: Shape India's Semiconductor Program.
 
 <hr style="height:3px; background-color:black; border:none;">
 
-
+<div align="center">
+  
 | **Weeks**     | Topics covered                                                              | **Status**| 
 |---------------|-----------------------------------------------------------------------------|-----------|
 | **Week0**     |            |           |
@@ -31,6 +32,7 @@ From Concept to Silicon: Shape India's Semiconductor Program.
 | **Week9**     | | | |
 | **Week10**    |  |  |  |
 
+</div>
 
 <hr style="height:3px; background-color:black; border:none;">
 
