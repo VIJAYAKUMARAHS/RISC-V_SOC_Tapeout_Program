@@ -93,7 +93,7 @@ Mr. Mohamed Kassem, Co-founder and CTO of ChipFoundry
 
 # 🚀Task 2: Tools Installation
 
-Here I am going to document a list of PC requirements, tools required, and how to install the tools
+Here, I am going to document the list of PC requirements, the tools required, and the steps to install them.
 
 ### Steps to install Tools
 
@@ -105,7 +105,7 @@ After installing VMware in your Windows system, download the Ubuntu 20.04 or hig
 
 https://ubuntu.com/download
 
-Now start the Virtual Machine and install the Ubuntu OS check this requirement
+Now, start the Virtual Machine and install the Ubuntu OS check these requirements
 - 6 RAM
 - 50GB Virtual Disk
 - Ubuntu 20.04 or Higher
@@ -113,7 +113,7 @@ Now start the Virtual Machine and install the Ubuntu OS check this requirement
 
  After the installation of Ubuntu.
 
- ### Installation of Open Source EDA Tools and Tools Check using commands below
+ ### Install the open-source EDA tools and verify them using the commands below.
 
 <hr style="height:3px; background-color:black; border:none;">
 
