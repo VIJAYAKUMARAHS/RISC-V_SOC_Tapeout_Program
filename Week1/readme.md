@@ -3,7 +3,7 @@
 
 ##  📅Day 1 - Introduction to Verilog RTL design and Synthesis
 
-### Introduction to open-source simulator: iverilog
+## 1. Introduction to open-source simulator: iverilog
 
 ####  Introduction to iverilog design and test bench
 
@@ -49,7 +49,7 @@ Note:
 
 <hr style="height:3px; background-color:black; border:none;">
 
-### Labs using iverilog and gtkwave
+## 2. Labs using iverilog and gtkwave
 
 #### Introduction to lab: tool setup 
 
@@ -169,16 +169,57 @@ endmodule
 
 <img width="540" height="587" alt="image" src="https://github.com/user-attachments/assets/96662491-ff7a-461e-89da-76bbc2f83238" />
 
+## 3. Introduction to Yosys and Logic Synthesis
+
+###  Introduction to yosys
+
+### What is Synthesizer?
+
+- The tool used for converting RTL design code to gate-level Netlist.
+
+- Yosys is the tool I am using to synthesize code.
+
+#### Let's look at how the flow 
+
+<img width="866" height="257" alt="image" src="https://github.com/user-attachments/assets/6aafd058-b6ab-4059-b15e-e15c19d52f9d" />
 
 
+#### Let's see how  the Yosys setup go's
+
+<img width="895" height="477" alt="image" src="https://github.com/user-attachments/assets/a618cecd-1dd3-4483-a629-aa7da5008be6" />
+```
+$ read_verilog  //this used to read the design verilog file
+$ read_liberty  //this used to read the .lib file
+$ write_verilog  // this used to write the netlist
+```
+- Netlist is a representation of RTL design file
+
+- .lib file contains the already designed standard cell gates
+  
+### How do I verify my synthesis is correct
+
+<img width="888" height="499" alt="image" src="https://github.com/user-attachments/assets/64aa1dea-2363-4ced-887b-f4bff40d82f3" />
 
 
+###  Introduction to logic synthesis
 
+#### What is RTL Design?
 
+<img width="637" height="407" alt="image" src="https://github.com/user-attachments/assets/d1b1cfb7-7d96-4577-bfa5-4be0c81103a9" />
 
+- How do I map RTL Code and the required logic circuit
 
+<img width="666" height="407" alt="image" src="https://github.com/user-attachments/assets/8732909e-4d0d-4068-a1eb-142823c33a0d" />
 
+#### What happens in the Synthesis?
 
+<img width="616" height="464" alt="image" src="https://github.com/user-attachments/assets/8ae19360-ef67-4427-b7ca-b9750c8c9631" />
+
+#### What is .lib(Liberty) file? What it contains
+
+<img width="642" height="433" alt="image" src="https://github.com/user-attachments/assets/ee9541d6-bf15-4563-a558-f71044e85aae" />
+
+#### Why we need different flavours of gates (standard cells)
 
 
 
