@@ -224,13 +224,34 @@ $ write_verilog  // this used to write the netlist
 
 #### Why we need different flavours of gates (standard cells)
 
+#### Why do we need Fast cells
 
+<img width="645" height="417" alt="image" src="https://github.com/user-attachments/assets/27bd59dd-24a5-45e4-8eff-939f2f45d477" />
 
+#### What is Setup Time?
 
+> #### Definition: Setup time is the minimum amount of time the input signal (D) must be stable before the active clock edge (rising or falling, depending on design) so that the flip-flop reliably captures the correct data.
 
+#### Why does it matter
 
+- Ensures reliable data sampling.
 
+- Violations lead to metastability or incorrect operation.
 
+- Critical in timing analysis for high-speed circuits.
+
+#### Why do we need slow cells?
+
+<img width="665" height="455" alt="image" src="https://github.com/user-attachments/assets/010755a2-5a4a-44ae-8935-022ec639d04a" />
+
+#### What is Hold Time?
+
+> Definition: Hold time is the minimum amount of time the input signal (D) must remain stable after the active clock edge so that the flip-flop correctly latches the data.
+
+#### Difference between Setup & Hold
+- Setup time → stable before clock edge.
+  
+- Hold time → stable after clock edge.
 
 
 
