@@ -99,7 +99,75 @@ $ gtkwave tb_good_mux.vcd
 
 <hr style="height:3px; background-color:black; border:none;">
 
-### File Structure: 2:1 MUX Design and Testbench
+## File Structure: 2:1 MUX Design and Testbench
+
+- Let's see what is there in the design file
+
+#### Note: I have not yet installed the gvim editor. To install the gvim editor, use command below 
+
+```
+sudo apt install neovim-qt
+```
+
+### Design File (good_mux.v)
+
+```
+gvim good_mux.v
+
+```
+
+- This is how the RTL Design file looks.
+
+```
+module good_mux (input i0 , input i1 , input sel , output reg y);
+always @ (*)
+begin
+	if(sel)
+		y <= i1;
+	else 
+		y <= i0;
+end
+endmodule
+
+```
+
+<img width="852" height="302" alt="image" src="https://github.com/user-attachments/assets/8b063f4a-1d13-46e0-9b51-d25aa5b2cfa1" />
+
+-  This is how the Test bench file looks.
+
+```
+`timescale 1ns / 1ps
+module tb_good_mux;
+	// Inputs
+	reg i0,i1,sel;
+	// Outputs
+	wire y;
+
+        // Instantiate the Unit Under Test (UUT)
+	good_mux uut (
+		.sel(sel),
+		.i0(i0),
+		.i1(i1),
+		.y(y)
+	);
+
+	initial begin
+	$dumpfile("tb_good_mux.vcd");
+	$dumpvars(0,tb_good_mux);
+	// Initialize Inputs
+	sel = 0;
+	i0 = 0;
+	i1 = 0;
+	#300 $finish;
+	end
+
+always #75 sel = ~sel;
+always #10 i0 = ~i0;
+always #55 i1 = ~i1;
+endmodule
+```
+
+<img width="540" height="587" alt="image" src="https://github.com/user-attachments/assets/96662491-ff7a-461e-89da-76bbc2f83238" />
 
 
 
