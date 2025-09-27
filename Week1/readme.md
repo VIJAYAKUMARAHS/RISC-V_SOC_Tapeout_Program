@@ -77,13 +77,33 @@ Verilog files: contain all our Verilog files, which are required for lab purpose
 
 #### simulate the RTL code good_mux.v and test bench tb_good_mux.v using iverilog
 
+```
+$ iverilog good_mux.v tb_good_mux.v
+```
+
 <img width="1707" height="281" alt="image" src="https://github.com/user-attachments/assets/1797afb2-0bce-4d23-995c-f28089b65e95" />
 
+#### To generate the vcd file
+```
+$ ./a.out
+```
 <img width="1533" height="290" alt="image" src="https://github.com/user-attachments/assets/b0ba6f50-d553-41d7-9523-3491bbaeacc7" />
 
-### gtkwave output
+#### gtkwave output
+
+```
+$ gtkwave tb_good_mux.vcd
+```
 
 <img width="1651" height="778" alt="image" src="https://github.com/user-attachments/assets/c3610ce7-b339-48ba-9780-ef701d10ecdf" />
+
+<hr style="height:3px; background-color:black; border:none;">
+
+### File Structure: 2:1 MUX Design and Testbench
+
+
+
+
 
 
 
