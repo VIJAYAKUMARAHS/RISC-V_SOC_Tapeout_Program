@@ -2,6 +2,12 @@
 </p>
 
 
+### 📚Contents
+
+ - [Task 1: Welcomw Call](https://github.com/VIJAYAKUMARAHS/RISC-V_SOC_Tapeout_Program/edit/main/Week0/readme.md#task-1-welcome-call)
+
+ - [Task 2: Tools Installation](https://github.com/VIJAYAKUMARAHS/RISC-V_SOC_Tapeout_Program/edit/main/Week0/readme.md#task-2-tools-installation)
+
 # 🚀Task 1: Welcome Call
 
 ## 📔 Here I am going to document the Welcome call of the RISC-V SOC Tapeout Program!
