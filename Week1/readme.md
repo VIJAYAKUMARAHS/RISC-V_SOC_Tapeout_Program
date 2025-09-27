@@ -253,16 +253,65 @@ $ write_verilog  // this used to write the netlist
   
 - Hold time → stable after clock edge.
 
+#### Let's compare Fast cells and Slow cells
+
+<img width="637" height="387" alt="image" src="https://github.com/user-attachments/assets/234552b8-19e1-45b6-ac5a-c113d062b2fc" />
+
+#### Selection of STD cells
+
+<img width="640" height="388" alt="image" src="https://github.com/user-attachments/assets/a5ba9ede-307e-4d22-9739-aa9f5536ca01" />
 
 
+#### Illustration of Synthesis
 
+<img width="673" height="470" alt="image" src="https://github.com/user-attachments/assets/15c2bb46-fef0-4744-b47e-36a3053fe6ec" />
 
+<hr style="height:3px; background-color:black; border:none;">
 
+## 4. Labs using Yosys and Sky130 PDKs
 
+### Synthesis using Yosys for (good_mux.v)
 
+#### Steps to invoke the Yosys tool and Synthesis 
 
+- Type the Command
+```
+$ yosys
+```
+<img width="1343" height="477" alt="image" src="https://github.com/user-attachments/assets/74e44513-ff49-47db-8753-d35e52f69093" />
 
+#### Synthesis Steps
 
+- First, we have to read the library
+
+```
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+<img width="1257" height="491" alt="image" src="https://github.com/user-attachments/assets/465d7181-754b-4e62-8d32-5ab13501b51c" />
+
+We got 418 std cells from the .lib file
+
+- Second, we have to read the RTL Verilog file
+
+```
+read_verilog good_mux.v
+```
+
+<img width="1000" height="263" alt="image" src="https://github.com/user-attachments/assets/77156772-c8bb-4e33-8505-5815527e3f0e" />
+
+- Let's synthesize the design
+
+```
+synth -top good_mux
+
+```
+<img width="1008" height="637" alt="image" src="https://github.com/user-attachments/assets/f7f2548b-2167-4dc2-a6ca-4fc89b9270e8" />
+
+```
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+<img width="787" height="298" alt="image" src="https://github.com/user-attachments/assets/681f37d7-787f-408d-9dd3-98dcb1b1f690" />
 
 
 
