@@ -187,11 +187,14 @@ endmodule
 #### Let's see how  the Yosys setup go's
 
 <img width="895" height="477" alt="image" src="https://github.com/user-attachments/assets/a618cecd-1dd3-4483-a629-aa7da5008be6" />
+
 ```
 $ read_verilog  //this used to read the design verilog file
 $ read_liberty  //this used to read the .lib file
 $ write_verilog  // this used to write the netlist
 ```
+
+
 - Netlist is a representation of RTL design file
 
 - .lib file contains the already designed standard cell gates
