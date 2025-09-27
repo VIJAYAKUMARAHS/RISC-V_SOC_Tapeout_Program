@@ -4,7 +4,7 @@
 
 ### 📚Contents
 
- - [Task 1: Welcomw Call](https://github.com/VIJAYAKUMARAHS/RISC-V_SOC_Tapeout_Program/edit/main/Week0/readme.md#task-1-welcome-call)
+ - [Task 1: Welcomw Call](https://github.com/VIJAYAKUMARAHS/RISC-V_SOC_Tapeout_Program/tree/main/Week0#task-1-welcome-call)
 
  - [Task 2: Tools Installation](https://github.com/VIJAYAKUMARAHS/RISC-V_SOC_Tapeout_Program/tree/main/Week0#task-2-tools-installation)
 
