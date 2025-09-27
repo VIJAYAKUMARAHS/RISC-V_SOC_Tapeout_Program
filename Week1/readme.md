@@ -31,13 +31,13 @@ Note:
 
 ### How the simulator works
 
-The simulator continuously checks for changes in input signals.
+- The simulator continuously checks for changes in input signals.
 
-If there is a change, it evaluates the corresponding output.
+- If there is a change, it evaluates the corresponding output.
 
-If no change to the inputs → no change in outputs.
+- If no change to the inputs → no change in outputs.
 
-The simulator continuously detecting and reacting to the input signal changes.
+- The simulator continuously detecting and reacting to the input signal changes.
 
 ### iverilog-based simulation flow
 
@@ -53,23 +53,23 @@ The simulator continuously detecting and reacting to the input signal changes.
 
 #### Introduction to lab: tool setup 
 
-Open a new terminal, create a directory vlsi.
+- Open a new terminal, create a directory vlsi.
 
-Clone the required files from the link below
+- Clone the required files from the link below
 
 https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 
 <img width="1905" height="993" alt="image" src="https://github.com/user-attachments/assets/31f18abe-c8d6-4916-9b6d-9499b0f74a84" />
 
 
-Let's look at the sky130RTLDesignAndSynthesisWorkshop file.
+- Let's look at the sky130RTLDesignAndSynthesisWorkshop file.
 
 <img width="1035" height="65" alt="image" src="https://github.com/user-attachments/assets/a6eb6f70-af6f-4ac5-b27c-30c80e508b5c" />
 
-Lib check
+- Lib check
 <img width="1077" height="132" alt="image" src="https://github.com/user-attachments/assets/8280f705-5342-4ea8-9a7e-d4a5a340a2df" />
 
-Verilog files: contain all our Verilog files, which are required for lab purposes 
+- Verilog files: contain all our Verilog files, which are required for lab purposes 
 
 <img width="1727" height="798" alt="image" src="https://github.com/user-attachments/assets/e781b211-c7e2-403b-9ca6-7b8193cbfb18" />
 
@@ -100,6 +100,8 @@ $ gtkwave tb_good_mux.vcd
 <hr style="height:3px; background-color:black; border:none;">
 
 ### File Structure: 2:1 MUX Design and Testbench
+
+
 
 
 
